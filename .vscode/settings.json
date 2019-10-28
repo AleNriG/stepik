@@ -1,0 +1,9 @@
+{
+    "code-runner.executorMap": {
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.app && $dir$fileNameWithoutExt.app",
+        "python": "python -u",
+        "haskell": "runhaskell",
+    }
+}
