@@ -2,9 +2,6 @@
 .swp
 .swo
 
-# Visual Studio Code
-.vscode/
-
 # Mac Shit
 .DS_Store
 
