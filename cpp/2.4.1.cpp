@@ -16,5 +16,9 @@ int main() {
 
 
 unsigned strlen(const char *str) {
-    return 1;
+    unsigned count = 0;
+    while (*str++) {
+         count++;
+    }
+    return count;
 }
